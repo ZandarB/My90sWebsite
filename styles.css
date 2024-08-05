@@ -10,7 +10,7 @@ ol  p {
     color: darkblue
 }
 
-ol p+b {
+ol b li {
     color: goldenrod
 }
 
