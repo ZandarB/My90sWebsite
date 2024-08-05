@@ -1,0 +1,43 @@
+ td {
+    color: red
+  }
+
+sub {
+    color: darkgrey 
+}
+
+ol  p {
+    color: darkblue
+}
+
+ol p+b {
+    color: goldenrod
+}
+
+h1 {
+    color: red
+}
+
+h1+ol > li {
+    color: green    
+}
+
+h1+h2 {
+    color: orange
+}
+
+h2+a {
+    color: yellow
+}
+
+a + p + a {
+    color: greenyellow
+}
+
+a + h2 {
+    color: blue
+}
+
+a + h2 + p {
+    color: rgb(151, 0, 151)
+}
