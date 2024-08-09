@@ -41,3 +41,14 @@ a + h2 {
 a + h2 + p {
     color: rgb(151, 0, 151)
 }
+
+.mystyle {
+    color: goldenrod;
+    font-weight: bold; 
+}
+
+.title{
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+}
+
