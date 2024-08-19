@@ -1,13 +1,20 @@
- td {
-    color: red
+
+.ex3 .parent {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
   }
+
+
+td {
+    color: red
+}
 
 sub {
     color: darkgrey 
 }
 
 ol  p {
-    color: darkblue
+    color: rgb(0, 217, 255)
 }
 
 ol b li {
@@ -49,6 +56,27 @@ a + h2 + p {
 
 .title{
     color:rgb(255, 0, 0);
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+h2 + p + h3 {
+    color: rgb(255, 0, 212);
+}
+
+body {
+    background-color: black;
+}
+
+
+.cookieclicker
+{
+    width:100px;
+    height:100px;
+    text-align: center;
+}
+
+.cookienumber
+{
+    color: white;
 }
 
