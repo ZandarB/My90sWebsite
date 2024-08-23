@@ -63,20 +63,47 @@ h2 + p + h3 {
     color: rgb(255, 0, 212);
 }
 
-body {
-    background-color: black;
+
+.cookienumber {
+    gap: 20px;
+    font-size: 24px;
+    color: black; 
 }
 
+.cursornumber{
+    gap: 20px;
+    font-size: 24px;
+    color: black; 
+}
 
-.cookieclicker
-{
-    width:100px;
-    height:100px;
+.bigcookie {
     text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
-.cookienumber
-{
-    color: white;
+.buycursor{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px; 
 }
 
+.cursorContainer {
+    max-width: 300px;
+    gap: 20px;
+    padding: 5px;
+}
+
+.cookieContainer {
+    max-width: 300px;
+    gap: 20px;
+    padding: 5px;
+}
+
+.totalContainer {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px;
+}
