@@ -6,18 +6,36 @@
     <title>CookieClicker but Scuffed</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-    <h1>Cookie Clicker but Scuffed</h1>
+<body>
+    <h1>Cookie Clicker but Scuffed</h1> 
+    <p class="settingsText">Choose a backround Colour (R, G, B)</p>
+        <div class = colourContainer>
+        <div class = "settings">
+            <input id="R" type="number" step="1" min="0" max="255" placeholder="Red">
+            <input id="G" type="number" step="1" min="0" max="255" placeholder="Green">
+            <input id="B" type="number" step="1" min="0" max="255" placeholder="Blue">
+        </div>
+        <div class="color-display" id="colorDisplay"></div>
+    </div>
     <h3>By Me (FirePrehistoric2)</h3>
+
     <p class="cookieNumber">0 Cookies</p>
     <p class = cps>0 Cookies Per Second (On Average)</p>
     <br>
-    <div class= "buttonContainter">
-        <div class="buttonContainer">
+    <div class="buttonContainer">
             <div class="left">
                 <button class="bigCookie">Big Cookie</button>
             </div>
 
             <div class="right">
+                <div class = "multiplier">
+
+                <button class="onex">1</button>
+                <button class="tenx">10</button>
+                <button class="hundredx">100</button>
+
+                </div>
+               
                 <button class="buyCursor">Buy a Cursor for 10 Cookies</button>
                 <p class="cursorNumber">0 Cursors</p>
                 <button class="buyGrandma">Buy a Grandma for 100 Cookies</button>
@@ -27,8 +45,6 @@
             </div>
     </div>
 
-
-    <br>
     <script src="cookieclicker.js"></script>
     <H2>Rules </H2>
         <p>1. Clicking the Big cookie gets 1 cookie for every click.</p>

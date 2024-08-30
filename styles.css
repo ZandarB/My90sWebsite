@@ -71,17 +71,27 @@ h2 + p + h3 {
     box-sizing: border-box;
 }
 
+.onex,.tenx,.hundredx{
+
+    width: 64px;
+    height: 50px;
+    margin-bottom: 20px;
+    flex-direction: row;
+
+}
 .left{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start; 
 }
+
 
 .right {
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
 }
+
 
 .cookieNumber {
     gap: 20px;
@@ -98,8 +108,53 @@ h2 + p + h3 {
 .buyCursor, .buyGrandma, .buyFarm{
     width: 200px;
     height: 50px;
-    box-sizing: border-box;
+}
+
+.multiplier{
+    flex-direction: row;
 
 }
 
+.settings {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    align-items: center; /* Centers items vertically */
+    margin-bottom: 10px;
+}
 
+.settingsText{
+    display: flex;
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+#R,#G,#B{
+    max-width: 51px;
+    max-height: 15px;
+    
+}
+
+.color-display{
+    display: flex;
+    justify-content: flex-end; 
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.colourContainer {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    align-items: flex-end; /* Aligns children to the right within the container */
+    margin: 10px; /* Optional margin around the container */
+}
+
+body{
+    color: black;
+    text-shadow: 
+    0.5px 0.5px 0 white,
+    -0.5px -1px 0 white,
+    0.5px -1px 0 white,
+    -0.5px 0.5px 0 white;
+}
