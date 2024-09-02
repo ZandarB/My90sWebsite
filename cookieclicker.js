@@ -65,9 +65,9 @@ function textUpdater()
     const grandmaTextElement = document.querySelector('.buyGrandma');
     const farmTextElement = document.querySelector('.buyFarm');
     
-    cursorTextElement.textContent = "Buy " + (multiplier) + " Cursors for " + (10 * multiplier) + " cookies"
-    grandmaTextElement.textContent = "Buy " + (multiplier) + " Grandmas for " + (100 * multiplier) + " cookies"
-    farmTextElement.textContent = "Buy " + (multiplier) + " Farms for " + (1000 * multiplier) + " cookies"
+    cursorTextElement.textContent = "Buy " + (multiplier) + " Cursor for " + (10 * multiplier) + " cookies"
+    grandmaTextElement.textContent = "Buy " + (multiplier) + " Grandma for " + (100 * multiplier) + " cookies"
+    farmTextElement.textContent = "Buy " + (multiplier) + " Farm for " + (1000 * multiplier) + " cookies"
 
 
 }
